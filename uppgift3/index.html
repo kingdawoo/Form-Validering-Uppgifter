@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uppgift 3</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<fieldset>
+    <!--Samma sak som uppgift 2 men nu har jag satt "required", "min length", och type="email" samt har-->
+    <!--jag gjort att den länkas till annan HTML sida genom action attributen-->
+    <div class="container">
+        <form method="get" name="form" action="complete.html" id="myform" onsubmit="validatePass()">
+            Username: <input type="text" name="user" id="user" class="User" required><br><br>
+            Password: <input type="password" name="pass" id="pass" class="Pass" required minlength="6"><br><br>
+            Confirm Password<sup style="color: red;">*</sup>: <input type="password" name="cpass" id="cpass" class="Cpass" required minlength="6"><br><br>
+            E-mail: <input type="email" name="mail" id="mail" class="Mail" required minlength="6"><br><br>
+            Terms of services<sup style="color: red;">*</sup>: <input type="checkbox" name="check" id="check" class="Check" required><br><br>
+            <input type="submit" value="Submit">
+        </form>  
+    </div>
+</fieldset>
+</body>
+</html>

@@ -1,0 +1,31 @@
+.container {
+    width: 500px;
+    clear: both;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.User {
+    width: 100%;
+    clear: both;;
+}
+
+.Pass {
+    width: 100%;
+    clear: both;
+}
+
+.Cpass {
+    width: 100%;
+    clear: both;
+}
+
+.Mail {
+    width: 100%;
+    clear: both;
+}
+
+fieldset {
+    margin-right: 75%;
+}
