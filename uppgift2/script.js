@@ -23,7 +23,7 @@ function validateForm() {
       document.getElementById('myform').action = "complete.html";
     }
     
-    //Gör att funktionen inte stoppar
+    //Gör att funktionen stoppar
     return false;
 }
 
